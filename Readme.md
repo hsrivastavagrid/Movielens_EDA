@@ -32,6 +32,14 @@ The goal is to move beyond descriptive trends and provide **actionable insights*
 
 ---
 
+## Key Insights
+- Aggregate ratings are dominated by highly active users, not necessarily the most satisfied ones.
+- Less active users consistently rate more positively but are underrepresented in summary metrics.
+- Declines in rating and tagging activity align with platform maturation and industry-wide shifts toward implicit feedback.
+- Genre performance varies significantly depending on *who* is rating, not just *what* is being rated.
+
+---
+
 ## Project Structure
 ```text
 movielens/
@@ -65,9 +73,3 @@ movielens/
 │   └── movielens_eda.pdf
 ├── .gitignore
 └── README.md
-
-## Key Insights
-- Aggregate ratings are dominated by highly active users, not necessarily the most satisfied ones.
-- Less active users consistently rate more positively but are underrepresented in summary metrics.
-- Declines in rating and tagging activity align with platform maturation and industry-wide shifts toward implicit feedback.
-- Genre performance varies significantly depending on *who* is rating, not just *what* is being rated.
